@@ -15,9 +15,9 @@ int main() {
 	bool boolData;
 	
 	cout << "Задание 1:\n";
-	cout << sizeof(intData) << " " << sizeof(shortData) << " " << sizeof(longData)
-		<< " " << sizeof(floatData) << " " << sizeof(doubleData) << " " << sizeof(longDoubleData) << " " << sizeof(floatData)
-		<< " " << sizeof(charData) << " " << sizeof(boolData) << '\n';
+	cout << "int весит " << sizeof(intData) << " байта\nshort весит " << sizeof(shortData) << " байта\nlong весит " << sizeof(longData)
+	<< " байта\nfloat весит " << sizeof(floatData) << " байта\ndouble весит " << sizeof(doubleData) << " байт\ndouble long весит " << sizeof(longDoubleData) << " байт\nchar весит " << sizeof(charData) << " байт\nbool весит " << sizeof(boolData) << " байт\n";
+
 
 
 	int intValue;
